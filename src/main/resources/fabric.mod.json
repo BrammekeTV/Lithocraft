@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "lithocraft",
+  "version": "${version}",
+
+  "name": "Lithocraft",
+  "description": "A spiritual successor to Thaumcraft",
+  "authors": [
+    "Brammeke"
+  ],
+
+  "license": "CC0-1.0",
+  "icon": "assets/lithocraft/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.brammeke.lithocraft.Main"
+    ]
+  },
+  "mixins": [
+    "lithocraft.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

@@ -1,0 +1,5 @@
+{
+    "variants": {
+      "": { "model": "lithocraft:block/empty_spawner_cage" }
+    }
+  }
