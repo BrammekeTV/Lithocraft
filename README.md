@@ -1,6 +1,6 @@
 # Lithocraft
 
-<div style="text-align:center"><img src="https://i.imgur.com/CgWhc5a.png"/></div>
+<div style="text-align:center"><img src="https://i.imgur.com/136elUA.png"/></div>
 
 ## Information
 
