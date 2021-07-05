@@ -3,5 +3,6 @@
     "item.lithocraft.papple": "The Holy Papple",
     "item.lithocraft.papple.tooltip": "§7The most Holiest of Papples.",
     "item.lithocraft.vitreus_shard": "Vitreus Shard",
-    "block.lithocraft.empty_spawner_cage": "Empty Spawner Cage"
+    "block.lithocraft.empty_spawner_cage": "Empty Spawner Cage",
+    "itemGroup.lithocraft.lithocraft_items": "Lithocraft"
 }
