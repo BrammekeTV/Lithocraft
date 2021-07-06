@@ -10,6 +10,7 @@ import net.minecraft.util.registry.Registry;
 public class ModItems {
     /*---------- Items ------------*/
     public static final Papple PAPPLE = new Papple(new Item.Settings().group(Main.LITHOCRAFT_GROUP));
+    public static final Item IRON_CAPPED_WAND = new Item(new Item.Settings().group(Main.LITHOCRAFT_GROUP));
     /*---------- Shards -----------*/
     public static final Item VITREUS_SHARD = new Item(new Item.Settings().group(Main.LITHOCRAFT_GROUP));
     public static final Item AER_SHARD = new Item(new Item.Settings().group(Main.LITHOCRAFT_GROUP));
@@ -55,8 +56,9 @@ public class ModItems {
     public static final BlockItem EMPTY_SPAWNER_CAGE = new BlockItem(ModBlocks.EMPTY_SPAWNER_CAGE, new Item.Settings().group(Main.LITHOCRAFT_GROUP));
 
     public static void registerItems() {
+        /*---------- Items ------------*/
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "papple"), PAPPLE); // Papple
-
+        Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "iron_capped_wand"), IRON_CAPPED_WAND); // Iron Capped Wand
         /*---------- Shards -----------*/
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "vitreus_shard"), VITREUS_SHARD); // Vitreus Shard
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "aer_shard"), AER_SHARD); // Aer Shard
