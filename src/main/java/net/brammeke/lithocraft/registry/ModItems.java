@@ -6,11 +6,13 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
+import org.apache.commons.lang3.math.IEEE754rUtils;
 
 public class ModItems {
     /*---------- Items ------------*/
     public static final Papple PAPPLE = new Papple(new Item.Settings().group(Main.LITHOCRAFT_GROUP));
     public static final Item IRON_CAPPED_WAND = new Item(new Item.Settings().group(Main.LITHOCRAFT_GROUP));
+    public static final Item IRON_PLATED_GAUNTLET = new Item(new Item.Settings().group(Main.LITHOCRAFT_GROUP));
     /*---------- Shards -----------*/
     public static final Item VITREUS_SHARD = new Item(new Item.Settings().group(Main.LITHOCRAFT_GROUP));
     public static final Item AER_SHARD = new Item(new Item.Settings().group(Main.LITHOCRAFT_GROUP));
@@ -59,6 +61,7 @@ public class ModItems {
         /*---------- Items ------------*/
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "papple"), PAPPLE); // Papple
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "iron_capped_wand"), IRON_CAPPED_WAND); // Iron Capped Wand
+        Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "iron_plated_gauntlet"), IRON_PLATED_GAUNTLET); // Iron Plated Gauntlet
         /*---------- Shards -----------*/
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "vitreus_shard"), VITREUS_SHARD); // Vitreus Shard
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "aer_shard"), AER_SHARD); // Aer Shard
