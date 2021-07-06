@@ -8,8 +8,9 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModItems {
-    //Items
+    /*---------- Items ------------*/
     public static final Papple PAPPLE = new Papple(new Item.Settings().group(Main.LITHOCRAFT_GROUP));
+    /*---------- Shards -----------*/
     public static final Item VITREUS_SHARD = new Item(new Item.Settings().group(Main.LITHOCRAFT_GROUP));
     public static final Item AER_SHARD = new Item(new Item.Settings().group(Main.LITHOCRAFT_GROUP));
     public static final Item AQUA_SHARD = new Item(new Item.Settings().group(Main.LITHOCRAFT_GROUP));

@@ -6,9 +6,13 @@
   "name": "Lithocraft",
   "description": "A spiritual successor to Thaumcraft",
   "authors": [
-    "Brammeke"
+    "Brammeke",
+    "Stofslof",
+    "motessej"
   ],
-
+  "contact": {
+    "sources": "https://github.com/BrammekeTV/Lithocraft"
+  },
   "license": "CC0-1.0",
   "icon": "assets/lithocraft/icon.png",
 
@@ -27,8 +31,5 @@
     "fabric": "*",
     "minecraft": "1.17.x",
     "java": ">=16"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }
