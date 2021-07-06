@@ -14,7 +14,7 @@ public class ModItems {
     public static final Item VITREUS_SHARD = new Item(new Item.Settings().group(Main.LITHOCRAFT_GROUP));
     public static final Item AER_SHARD = new Item(new Item.Settings().group(Main.LITHOCRAFT_GROUP));
     public static final Item AQUA_SHARD = new Item(new Item.Settings().group(Main.LITHOCRAFT_GROUP));
-    public static final Item FLAMMA_SHARD = new Item(new Item.Settings().group(Main.LITHOCRAFT_GROUP));
+    public static final Item IGNIS_SHARD = new Item(new Item.Settings().group(Main.LITHOCRAFT_GROUP));
     public static final Item TERRA_SHARD = new Item(new Item.Settings().group(Main.LITHOCRAFT_GROUP));
     public static final Item ORDO_SHARD = new Item(new Item.Settings().group(Main.LITHOCRAFT_GROUP));
     public static final Item PERDITIO_SHARD = new Item(new Item.Settings().group(Main.LITHOCRAFT_GROUP));
@@ -61,7 +61,7 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "vitreus_shard"), VITREUS_SHARD); // Vitreus Shard
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "aer_shard"), AER_SHARD); // Aer Shard
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "aqua_shard"), AQUA_SHARD); // Aqua Shard
-        Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "flamma_shard"), FLAMMA_SHARD); // Flamma Shard
+        Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "ignis_shard"), IGNIS_SHARD); // Flamma Shard
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "terra_shard"), TERRA_SHARD); // Terra Shard
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "ordo_shard"), ORDO_SHARD); // Ordo Shard
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "perditio_shard"), PERDITIO_SHARD); // Perditio Shard
