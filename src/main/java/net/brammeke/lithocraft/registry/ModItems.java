@@ -56,6 +56,7 @@ public class ModItems {
 
     //Block Items
     public static final BlockItem EMPTY_SPAWNER_CAGE = new BlockItem(ModBlocks.EMPTY_SPAWNER_CAGE, new Item.Settings().group(Main.LITHOCRAFT_GROUP));
+    public static final BlockItem LUMEN = new BlockItem(ModBlocks.LUMEN, new Item.Settings().group(Main.LITHOCRAFT_GROUP));
 
     public static void registerItems() {
         /*---------- Items ------------*/
@@ -104,5 +105,6 @@ public class ModItems {
 
         /*---------- Blocks -----------*/
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "empty_spawner_cage"), EMPTY_SPAWNER_CAGE); // Empty Spawner Cage
+        Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "lumen"), LUMEN); // Lumen
     }
 }
