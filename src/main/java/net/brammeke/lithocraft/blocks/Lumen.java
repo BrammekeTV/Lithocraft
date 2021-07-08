@@ -15,7 +15,7 @@ import net.minecraft.world.World;
 import java.util.Random;
 
 public class Lumen extends Block {
-    public Lumen(Settings settings, DefaultParticleType flame) {
+    public Lumen(Settings settings) {
         super(settings);
     }
 
@@ -33,7 +33,9 @@ public class Lumen extends Block {
         double y = pos.getY() + 0.5;
         double z = pos.getZ() + 0.5;
         world.addParticle(ParticleTypes.SMOKE, true, x, y, z, 0.0D, 0.0D, 0.0D);
+
         world.addParticle(ParticleTypes.FLAME, true, x, y, z, 0.0D, 0.0D, 0.0D);
+
         world.addParticle(ParticleTypes.FLAME, true, x, y, z, 0.0045D, 0.0D, 0.0D);
         world.addParticle(ParticleTypes.FLAME, true, x, y, z, 0.001D, 0.005D, 0.005D);
         world.addParticle(ParticleTypes.FLAME, true, x, y, z, 0.005D, 0.0D, 0.006D);

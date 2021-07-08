@@ -21,15 +21,17 @@ public class ModBlocks {
         .sounds(BlockSoundGroup.METAL)
         .nonOpaque()
         );
+
     public static final Lumen LUMEN = new Lumen(FabricBlockSettings
         .of(Material.DECORATION)
         .nonOpaque()
         .ticksRandomly()
         .collidable(false)
         .breakByHand(true)
+        .sounds(BlockSoundGroup.WOOL)
         .luminance((state) -> {return 14;})
-        , ParticleTypes.FLAME
         );
+
     public static void registerBlocks() {
         Registry.register(Registry.BLOCK, new Identifier(Main.MOD_ID, "empty_spawner_cage"), EMPTY_SPAWNER_CAGE);
         Registry.register(Registry.BLOCK, new Identifier(Main.MOD_ID, "lumen"), LUMEN);
