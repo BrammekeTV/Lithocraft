@@ -10,7 +10,7 @@ archivesBaseName = project.archives_base_name
 version = project.mod_version
 group = project.maven_group
 
-repositories {/*
+repositories {
 	maven {
 		name = "TerraformersMC"
 		url = "https://maven.terraformersmc.com/"
@@ -18,7 +18,7 @@ repositories {/*
 	maven {
 		name = "Ladysnake Libs"
 		url = "https://ladysnake.jfrog.io/artifactory/mods"
-	}*/
+	}
 }
 
 dependencies {
@@ -34,7 +34,7 @@ dependencies {
 	// You may need to force-disable transitiveness on them.
 
 	// Trinkets
-	//modImplementation "dev.emi:trinkets:${trinkets_version}"
+	modImplementation "dev.emi:trinkets:${trinkets_version}"
 }
 
 processResources {
